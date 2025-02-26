@@ -4,7 +4,7 @@ from tkinter import scrolledtext
 
 # Hugging Face API details
 API_URL = "https://api-inference.huggingface.co/models/facebook/blenderbot-400M-distill"
-HEADERS = {"Authorization": "Bearer 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"}
+HEADERS = {"Authorization": "Bearer Enter_Your_API"}
 
 def chatbot_response(user_input):
     response = requests.post(API_URL, headers=HEADERS, json={"inputs": user_input})
