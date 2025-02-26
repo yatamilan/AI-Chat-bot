@@ -50,5 +50,3 @@ send_button.pack(pady=5)
 # Run the chatbot GUI
 root.mainloop()
 
-
-# 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
